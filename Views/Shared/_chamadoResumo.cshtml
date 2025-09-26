@@ -1,0 +1,21 @@
+﻿@model AplicativoChamados.Models.Chamado;
+
+<div class="col-sm-4 col-md-4 col-xl-4">
+    <a asp-controller="Chamado" asp-route-chamadoId="@Model.chamadoId" class="text-decoration-none text-dark">
+        <br />
+        <div class="border rounded p-3">
+            <h5>@Model.descricaoDoChamado</h5>
+            <h4>@Model.situacao</h4>
+            @if(Model.situacao == "Atendido"){
+                <p>@Model.NomeDoUsuario</p>
+            }
+            <div>
+                <p class="button">
+                    <a class="btn btn-primary" id="cartButton" asp-controller="Chamados" asp-action="Visualizar" asp-route-chamadoId="@Model.chamadoId">Visualizar</a>
+                    <a class="btn btn-secundary" id="cartButton" asp-controller="Chamados" asp-action="Remover" asp-route-chamadoId="@Model.chamadoId">Excluir</a>
+                    <a class="btn btn-secundary" id="cartButton" asp-controller="Chamados" asp-action="Alterar" asp-route-chamadoId="@Model.chamadoId">Editar</a>
+                </p>
+            </div>
+        </div>
+    </a>
+</div>

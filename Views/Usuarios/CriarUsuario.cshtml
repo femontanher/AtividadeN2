@@ -1,0 +1,16 @@
+﻿@using AplicativoChamados.Models
+@model Usuario
+
+<h1>Criar Usuário</h1>
+
+<form method="post" asp-action="Salvar" novalidate>
+    <h3>Dados do Usuario</h3>
+    <div class="form-group">
+        <label for="nome">Nome Completo</label>
+        <input type="text" class="form-control" id="nomeCompleto" name="nomeCompleto" value="@Model.nomeCompleto" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+<a href="@Url.Action("Index", "Usuarios")">Voltar para os usuarios</a>

@@ -1,0 +1,15 @@
+﻿@model AplicativoChamados.Models.Usuario
+
+@{
+    ViewData["Title"] = "Visualizar Usuário";
+}
+
+<h2>Visualizar Usuário</h2>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <p><strong>Nome Completo:</strong> @Model.nomeCompleto</p>
+    </div>
+</div>
+
+<a asp-controller="Usuarios" asp-action="Index" class="btn btn-secondary">Voltar</a>

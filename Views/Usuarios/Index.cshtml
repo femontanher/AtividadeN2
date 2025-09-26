@@ -1,0 +1,18 @@
+﻿@model List<AplicativoChamados.Models.Usuario>
+
+<div>
+    <h1>Bem-Vindos ao gerenciador de usuarios da FESA</h1>
+
+    <a class="btn btn-info" asp-controller="Usuarios" asp-action="CriarUsuario">Novo Usuario</a>
+
+    <div class="row">
+        @if (Model != null && Model.Any()) {
+            foreach (var infoUsuario in Model) {
+                <partial name="_usuarioResumo" for="@infoUsuario" />
+            }
+        }
+        else {
+            <p>Não há usuarios cadastrados.</p>
+        }
+    </div>
+</div>

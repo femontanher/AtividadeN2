@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|c:\\users\\fernando.cruz\\onedrive - sphere it solutions\\desktop\\faculdade\\lp1\\aplicativochamados\\dao\\chamadosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|solutionrelative:dao\\chamadosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|c:\\users\\fernando.cruz\\onedrive - sphere it solutions\\desktop\\faculdade\\lp1\\aplicativochamados\\views\\usuarios\\criarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|solutionrelative:views\\usuarios\\criarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|c:\\users\\fernando.cruz\\onedrive - sphere it solutions\\desktop\\faculdade\\lp1\\aplicativochamados\\dao\\usuariosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|c:\\users\\fernando.cruz\\onedrive - sphere it solutions\\desktop\\faculdade\\lp1\\aplicativochamados\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|solutionrelative:controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|c:\\users\\fernando.cruz\\onedrive - sphere it solutions\\desktop\\faculdade\\lp1\\aplicativochamados\\dao\\chamadosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|solutionrelative:dao\\chamadosdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFE6E3EB-429C-431F-B161-D643B3019E2E}|AplicativoChamados.csproj|c:\\users\\fernando.cruz\\onedrive - sphere it solutions\\desktop\\faculdade\\lp1\\aplicativochamados\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CriarUsuario.cshtml",
+              "DocumentMoniker": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\Views\\Usuarios\\CriarUsuario.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\CriarUsuario.cshtml",
+              "ToolTip": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\Views\\Usuarios\\CriarUsuario.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\CriarUsuario.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T22:49:39.344Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,20 +57,20 @@
               "RelativeDocumentMoniker": "DAO\\UsuariosDAO.cs",
               "ToolTip": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\DAO\\UsuariosDAO.cs",
               "RelativeToolTip": "DAO\\UsuariosDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T19:03:09.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ChamadosDAO.cs",
               "DocumentMoniker": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\DAO\\ChamadosDAO.cs",
               "RelativeDocumentMoniker": "DAO\\ChamadosDAO.cs",
               "ToolTip": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\DAO\\ChamadosDAO.cs",
               "RelativeToolTip": "DAO\\ChamadosDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwEYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T18:58:25.396Z",
               "EditorCaption": ""
@@ -66,14 +83,14 @@
               "RelativeDocumentMoniker": "Controllers\\ChamadosController.cs",
               "ToolTip": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\Controllers\\ChamadosController.cs",
               "RelativeToolTip": "Controllers\\ChamadosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T18:38:56.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
@@ -81,12 +98,11 @@
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T19:00:13.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T19:00:13.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_chamadoResumo.cshtml",
               "DocumentMoniker": "C:\\Users\\fernando.cruz\\OneDrive - Sphere IT Solutions\\Desktop\\Faculdade\\LP1\\AplicativoChamados\\Views\\Shared\\_chamadoResumo.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_chamadoResumo.cshtml",
@@ -94,8 +110,7 @@
               "RelativeToolTip": "Views\\Shared\\_chamadoResumo.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T18:55:13.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T18:55:13.188Z"
             }
           ]
         }

@@ -35,10 +35,40 @@ namespace AplicativoChamados.DAO {
 			string sql = "INSERT INTO chamados (id, data_abertura,descricao_problema, descricao_atendimento, data_atendimento, situacao, usuario_id) VALUES (@chamadoid, @data_abertura, @descricao_problema, @descricao_atendimento, @data_atendimento, @situacao, @usuarioid)";
 
 			NpgsqlParameter[] parametros = new NpgsqlParameter[] {
-				new NpgsqlParameter("@usuarioId", NpgsqlTypes.NpgsqlDbType.Integer) {Value = chamado.usuarioId}
+				new NpgsqlParameter("@chamadoid", NpgsqlTypes.NpgsqlDbType.Integer) {Value = chamado.chamadoId},
+				new NpgsqlParameter("@usuarioId", NpgsqlTypes.NpgsqlDbType.Integer) {Value = chamado.usuarioId},
+				new NpgsqlParameter("@data_abertura", NpgsqlTypes.NpgsqlDbType.Date) {Value = chamado.dataAbertura},
+				new NpgsqlParameter("@data_atendimento", NpgsqlTypes.NpgsqlDbType.Date) {Value = chamado.dataAtendimento},
+				new NpgsqlParameter("@descricao_problema", NpgsqlTypes.NpgsqlDbType.Varchar) {Value = chamado.descricaoDoChamado},
+				new NpgsqlParameter("@descricao_atendimento", NpgsqlTypes.NpgsqlDbType.Varchar) {Value = chamado.descicaoAtendimento},
+				new NpgsqlParameter("@situacao", NpgsqlTypes.NpgsqlDbType.Varchar) {Value = chamado.situacao}
 			};
 
 			HelperDAO.ExecutaSQL(sql, parametros);
+		}
+
+		public List<Chamado> Listagem() {
+			string sql = "SELECT * FROM chamados";
+
+			DataTable tabela = HelperDAO.ExecutaSelect(sql, null);
+
+			List<Chamado> chamados = new List<Chamado>();
+
+			foreach (DataRow row in tabela.Rows) {
+				var chamado = new Chamado {
+					chamadoId = Convert.ToInt32(row[@"id"]),
+					usuarioId = Convert.ToInt32(row[@"usuario_id"]),
+					dataAbertura = Convert.ToDateTime(row[@"data_abertura"]),
+					dataAtendimento = Convert.ToDateTime(row[@"data_atendimento"]),
+					descicaoAtendimento = row[@"descricao_atendimento"].ToString(),
+					descricaoDoChamado = row[@"descricao_problema"].ToString(),
+					situacao = row[@"situacao"].ToString()
+				};
+
+				chamados.Add(chamado);
+			}
+
+			return chamados;
 		}
 	}
 }

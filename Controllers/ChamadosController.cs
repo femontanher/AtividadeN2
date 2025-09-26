@@ -17,7 +17,7 @@ namespace AplicativoChamados.Controllers
 			var chamados = _chamadosDAO.Listagem();
 
 			foreach(var chamado in chamados) {
-				var usuario = _usuariosDAO.ProcurarPorId(chamado.UsuarioId);
+				var usuario = _usuariosDAO.ProcurarPorId(chamado.usuarioId);
 				chamado.NomeDoUsuario = usuario?.nomeCompleto;
 			}
 

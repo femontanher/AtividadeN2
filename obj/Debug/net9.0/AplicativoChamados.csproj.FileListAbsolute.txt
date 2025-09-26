@@ -99,3 +99,4 @@ C:\Users\fernando.cruz\OneDrive - Sphere IT Solutions\Desktop\Faculdade\LP1\Apli
 C:\Users\fernando.cruz\OneDrive - Sphere IT Solutions\Desktop\Faculdade\LP1\AplicativoChamados\obj\Debug\net9.0\AplicativoChamados.pdb
 C:\Users\fernando.cruz\OneDrive - Sphere IT Solutions\Desktop\Faculdade\LP1\AplicativoChamados\obj\Debug\net9.0\AplicativoChamados.genruntimeconfig.cache
 C:\Users\fernando.cruz\OneDrive - Sphere IT Solutions\Desktop\Faculdade\LP1\AplicativoChamados\obj\Debug\net9.0\ref\AplicativoChamados.dll
+C:\Users\fernando.cruz\OneDrive - Sphere IT Solutions\Desktop\Faculdade\LP1\AplicativoChamados\obj\Debug\net9.0\AplicativoChamados.sourcelink.json
